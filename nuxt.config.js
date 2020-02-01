@@ -2,6 +2,9 @@ const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
   mode: 'universal',
+  // router: {
+  //   middleware: 'test'
+  // },
   /*
   ** Headers of the page
   */
@@ -81,7 +84,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }

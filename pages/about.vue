@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  middleware: 'test',
   asyncData() {
     return { title: 'About hastam' }
   },
