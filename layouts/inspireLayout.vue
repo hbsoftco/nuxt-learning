@@ -1,14 +1,15 @@
 <template>
-  <div>i am hossen layout</div>
+  <div>
+    <p align="center">I am hossein layout</p>
+    <nuxt />
+  </div>
 </template>
 
 <script>
 export default {
-  name:"InspireLayout",
+  name: 'InspireLayout',
   data() {
-    return {
-      title: 'Hossein Bajan'
-    }
+    return {}
   }
 }
 </script>
